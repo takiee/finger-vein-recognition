@@ -6,9 +6,10 @@
 使用香港理工大学的手指图像数据库（POLYU），该数据库在 2009 年 4 月到 2010 年 3 月期间使用香港理工大学校园中的非接触式成像设备进行了大规模采集，所有图像均为位图（*.bmp）格式。在此数据集中，约有 93%的受试者年龄小于 30 岁。手指图像是单独采集获取的，最小间隔为一个月，最大间隔为 6 个月以上，平均间隔 66.8天。在每次采集中，每个受试者分别提供食指的六个样本。
 ## 图像预处理
 - 获取ROI  
-![image](https://user-images.githubusercontent.com/83262562/117675023-c885cc80-b1de-11eb-827b-eeb1221c05cb.png)
+<img src="https://user-images.githubusercontent.com/83262562/117675023-c885cc80-b1de-11eb-827b-eeb1221c05cb.png" style="zoom:30%" />
+
 - 图像增强  
-![image](https://user-images.githubusercontent.com/83262562/117675122-e0f5e700-b1de-11eb-8837-e37d26fde12a.png)
+<img src="https://user-images.githubusercontent.com/83262562/117675122-e0f5e700-b1de-11eb-8837-e37d26fde12a.png" style="zoom:30%" />
 
 - 静脉纹路的提取：多尺度匹配滤波  
 ![image](https://user-images.githubusercontent.com/83262562/117675404-1bf81a80-b1df-11eb-8249-7d7a49184509.png)
