@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Finger Vein Match</title>
+</head>
+<body>
+<h1>
+    指静脉识别系统
+</h1>
+<h2>
+   请输入1-150之间的两个数字来选择两幅指静脉图像
+</h2>
+<form action="match"  method="get">
+<h2>
+    num1:  <input type="text" name="num1" style= "font: 18px arial; padding:10px 10px 10px" value="{% block number1%}{% endblock %}"/>
+</h2>
+
+<h2>
+    num2:  <input type="text" name="num2" style= "font: 18px arial; padding:10px 10px 10px" value="{% block number2%}{% endblock %}"/>
+</h2>
+    <br>
+<input type="submit" value="提交" style= "font: 18px arial; padding:10px 20px 10px 20px" />
+</form>
+{% block result %}{% endblock %}
+</body>
+</html>

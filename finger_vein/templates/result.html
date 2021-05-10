@@ -1,0 +1,21 @@
+{% extends "match.html" %}
+{% block number1%}{{number1}}{% endblock %}
+{% block number2%}{{number2}}{% endblock %}
+{% block result %}
+<h3>
+    数据情况：{{data}}
+</h3>
+<h2>
+   下面为三种方法得出的评分或距离：
+</h2>
+<h3>
+    LBP score : {{LBP_score}}
+</h3>
+<h3>
+    PBBM score : {{PBBM_score}}
+</h3>
+<h3>
+    MHD distance : {{dis}}
+</h3>
+
+{% endblock %}
